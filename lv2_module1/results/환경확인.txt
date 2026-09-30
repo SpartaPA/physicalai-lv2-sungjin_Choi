@@ -1,0 +1,69 @@
+=== date ===
+Wed Sep 30 10:37:56 KST 2026
+=== hostname ===
+pa18
+=== os-release ===
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+=== uname ===
+aarch64
+=== groups ===
+pa18 adm dialout cdrom floppy sudo audio dip video plugdev netdev lxd
+=== df ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   15G  7.3G  6.3G  54% /
+=== lsusb ===
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 004: ID 0483:5740 STMicroelectronics Virtual COM Port
+Bus 001 Device 005: ID 10c4:ea60 Silicon Labs CP210x UART Bridge
+Bus 001 Device 003: ID 1a86:8095 QinHeng Electronics USB Hub
+Bus 001 Device 002: ID 2109:3431 VIA Labs, Inc. Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+=== tty ===
+crw-rw---- 1 root dialout 166, 0 Jul 29 22:41 /dev/ttyACM0
+=== udev ===
+DEVPATH=/devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/tty/ttyACM0
+DEVNAME=/dev/ttyACM0
+MAJOR=166
+MINOR=0
+SUBSYSTEM=tty
+USEC_INITIALIZED=12824877
+ID_BUS=usb
+ID_VENDOR_ID=0483
+ID_MODEL_ID=5740
+ID_PCI_CLASS_FROM_DATABASE=Serial bus controller
+ID_PCI_SUBCLASS_FROM_DATABASE=USB controller
+ID_PCI_INTERFACE_FROM_DATABASE=XHCI
+ID_VENDOR_FROM_DATABASE=STMicroelectronics
+ID_MODEL_FROM_DATABASE=Virtual COM Port
+ID_VENDOR=ROBOTIS
+ID_VENDOR_ENC=ROBOTIS
+ID_MODEL=OpenCR_Virtual_ComPort_in_FS_Mode
+ID_MODEL_ENC=OpenCR\x20Virtual\x20ComPort\x20in\x20FS\x20Mode
+ID_REVISION=0200
+ID_SERIAL=ROBOTIS_OpenCR_Virtual_ComPort_in_FS_Mode_FFFFFFFEFFFF
+ID_SERIAL_SHORT=FFFFFFFEFFFF
+ID_TYPE=generic
+ID_USB_INTERFACES=:020201:0a0000:
+ID_USB_INTERFACE_NUM=00
+ID_USB_DRIVER=cdc_acm
+ID_USB_CLASS_FROM_DATABASE=Communications
+ID_PATH=platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.4:1.0
+ID_PATH_TAG=platform-fd500000_pcie-pci-0000_01_00_0-usb-0_1_4_1_0
+ID_MM_CANDIDATE=1
+DEVLINKS=/dev/serial/by-id/usb-ROBOTIS_OpenCR_Virtual_ComPort_in_FS_Mode_FFFFFFFEFFFF-if00 /dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.4:1.0
+TAGS=:systemd:
+CURRENT_TAGS=:systemd:
+=== port ===
+Port access OK

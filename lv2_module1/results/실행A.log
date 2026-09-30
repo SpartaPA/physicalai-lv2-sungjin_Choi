@@ -1,0 +1,35 @@
+START: current position = 0 deg.
+P SET Kp=1.0000, Ki=0.0000, Kd=0.0000, speed_limit_deg_s=10.000, angle_deg=10.000
+Run timeout [s]: 60.0
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:0.100
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:0.200
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.001	kp:1.0000	ki:0.0000	kd:0.0000	t_s:0.300
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.001	kp:1.0000	ki:0.0000	kd:0.0000	t_s:0.400
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:0.500
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.001	kp:1.0000	ki:0.0000	kd:0.0000	t_s:0.600
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:0.700
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:0.800
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:0.900
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.001	kp:1.0000	ki:0.0000	kd:0.0000	t_s:1.000
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.001	kp:1.0000	ki:0.0000	kd:0.0000	t_s:1.100
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:1.200
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.001	kp:1.0000	ki:0.0000	kd:0.0000	t_s:1.300
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:1.400
+target_deg:0.000	position_deg:-0.088	error_deg:0.088	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:1.500
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.001	kp:1.0000	ki:0.0000	kd:0.0000	t_s:1.600
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:1.700
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:1.800
+target_deg:0.000	position_deg:0.000	error_deg:0.000	p_deg_s:0.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:0.000	speed_deg_s:0.000	u_deg_s:0.000	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:1.900
+target_deg:10.000	position_deg:0.000	error_deg:10.000	p_deg_s:10.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:10.000	speed_deg_s:0.000	u_deg_s:9.618	v_limit_deg_s:10.000	dt_ms:10.001	kp:1.0000	ki:0.0000	kd:0.0000	t_s:2.000
+target_deg:10.000	position_deg:0.000	error_deg:10.000	p_deg_s:10.000	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:10.000	speed_deg_s:0.000	u_deg_s:9.618	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:2.100
+target_deg:10.000	position_deg:0.879	error_deg:9.121	p_deg_s:9.121	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:9.121	speed_deg_s:9.618	u_deg_s:9.618	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:2.200
+target_deg:10.000	position_deg:1.934	error_deg:8.066	p_deg_s:8.066	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:8.066	speed_deg_s:9.618	u_deg_s:8.244	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:2.300
+target_deg:10.000	position_deg:2.725	error_deg:7.275	p_deg_s:7.275	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:7.275	speed_deg_s:8.244	u_deg_s:6.870	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:2.400
+target_deg:10.000	position_deg:3.428	error_deg:6.572	p_deg_s:6.572	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:6.572	speed_deg_s:5.496	u_deg_s:6.870	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:2.500
+target_deg:10.000	position_deg:4.131	error_deg:5.869	p_deg_s:5.869	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:5.869	speed_deg_s:5.496	u_deg_s:5.496	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:2.600
+target_deg:10.000	position_deg:4.658	error_deg:5.342	p_deg_s:5.342	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:5.342	speed_deg_s:5.496	u_deg_s:5.496	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:2.700
+target_deg:10.000	position_deg:5.273	error_deg:4.727	p_deg_s:4.727	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:4.727	speed_deg_s:5.496	u_deg_s:4.122	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:2.800
+target_deg:10.000	position_deg:5.801	error_deg:4.199	p_deg_s:4.199	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:4.199	speed_deg_s:4.122	u_deg_s:4.122	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:2.900
+target_deg:10.000	position_deg:6.240	error_deg:3.760	p_deg_s:3.760	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:3.760	speed_deg_s:4.122	u_deg_s:4.122	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:3.000
+target_deg:10.000	position_deg:6.680	error_deg:3.320	p_deg_s:3.320	i_deg_s:0.000	d_deg_s:0.000	pid_deg_s:3.320	speed_deg_s:2.748	u_deg_s:2.748	v_limit_deg_s:10.000	dt_ms:10.000	kp:1.0000	ki:0.0000	kd:0.0000	t_s:3.100
+STOP: user
