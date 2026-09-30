@@ -4,4 +4,4 @@
 
 ## 모듈
 
-- [모듈 1](lv2_module1/README.md): 문제 1~4. 보고서 [lv2_module1/report.md](lv2_module1/report.md). 완료 태그 `lv2-module1-submit`
+- [모듈 1](lv2_module1/README.md): 문제 1~4. 보고서 [lv2_module1/report.md](lv2_module1/report.md). 진행 설명 [lv2_module1/설명.md](lv2_module1/설명.md). 완료 태그 `lv2-module1-submit`
