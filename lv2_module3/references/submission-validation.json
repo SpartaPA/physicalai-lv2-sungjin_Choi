@@ -13,7 +13,7 @@
   "module1_unchanged": true,
   "readme_replay": "실제 실행 종료코드 0; 새 stamp; 원본 픽셀·Mask·검출값이 기준 A와 일치",
   "technical_document_review": "독립 읽기 검토: 지적 없음",
-  "report_sha256": "18b714091e8b8f245cb6f43672e2b62df0ff72a5a5305263d24f064c080e3edf",
+  "report_sha256": "1b5dee0a4bae87d4b20ffdba99d19fedd89a5778c4f7ee6e0f373aee4c44c082",
   "readme_sha256": "f75af56e28fc86a17db16f4f468982c690f80ea05dc1347e0772c9d92ef84fbe",
   "original_evidence_policy": "원본 파일 116개 바이트 보존. CSV의 CRLF와 원래 로그의 빈 줄도 그대로 보존."
 }
