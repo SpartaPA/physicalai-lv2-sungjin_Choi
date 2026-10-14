@@ -7,13 +7,19 @@
     "failed": 0
   },
   "local_links": {
-    "checked": 98,
+    "checked": 47,
     "broken": 0
   },
   "module1_unchanged": true,
   "readme_replay": "실제 실행 종료코드 0; 새 stamp; 원본 픽셀·Mask·검출값이 기준 A와 일치",
   "technical_document_review": "독립 읽기 검토: 지적 없음",
-  "report_sha256": "1b5dee0a4bae87d4b20ffdba99d19fedd89a5778c4f7ee6e0f373aee4c44c082",
+  "report_sha256": "7958c6f18d3c190a98eddba34d6f33a3516f339fecf4041d445c2a5f1c860419",
   "readme_sha256": "f75af56e28fc86a17db16f4f468982c690f80ea05dc1347e0772c9d92ef84fbe",
-  "original_evidence_policy": "원본 파일 116개 바이트 보존. CSV의 CRLF와 원래 로그의 빈 줄도 그대로 보존."
+  "original_evidence_policy": "원본 파일 116개 바이트 보존. CSV의 CRLF와 원래 로그의 빈 줄도 그대로 보존.",
+  "guided_report_checks": {
+    "passed": 29,
+    "failed": 0,
+    "measurement_display": "소수점 둘째 자리 반올림, 면적 약 18,600 px제곱",
+    "github_render": "5개 절, 이미지 4개, 취소선 없음"
+  }
 }
