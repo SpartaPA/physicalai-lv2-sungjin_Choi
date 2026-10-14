@@ -1,0 +1,4 @@
+[INFO] [1791972430.664181882] [target_detector]: run_id=topic_demo hsv=(100, 120, 40)~(130, 255, 255) min_area=50000.0 selection=priority use_depth=False detect_scale=1.0 size_check=True object_tracker=False
+[INFO] [1791972430.665333011] [target_detector]: LIVE_VIEW_READY /target/debug/overlay/compressed /target/debug/mask/compressed
+[INFO] [1791972438.086384745] [target_detector]: processing FPS 0.1, mean proc 5.6 ms
+[INFO] [1791972443.578673975] [target_detector]: processing FPS 2.0, mean proc 1.0 ms

@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "stamp": {
+    "sec": 1791971274,
+    "nanosec": 559192538
+  },
+  "frame_id": "camera_color_optical_frame",
+  "topics": {
+    "raw": "/camera/camera/color/image_raw",
+    "mask": "/target/debug/mask/compressed",
+    "overlay": "/target/debug/overlay/compressed",
+    "target": "/target"
+  },
+  "raw_encoding": "bgr8",
+  "width": 640,
+  "height": 480,
+  "decoded_mask_pixels_gt127": 12166,
+  "mask_unique_values": 61,
+  "target": {
+    "x": -0.21571886282856384,
+    "y": -0.05138502549837736,
+    "z": 0.0386181640625
+  }
+}

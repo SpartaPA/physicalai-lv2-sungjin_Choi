@@ -1,0 +1,116 @@
+{
+  "protected_unchanged": true,
+  "runs": {
+    "exp1-A": {
+      "target_matches_recomputed_existing_detector": true,
+      "mask_jpeg_matches_recomputed_existing_detector": true,
+      "target": {
+        "x": -0.02724920595566758,
+        "y": -0.044322973902632984,
+        "z": 0.060724283854166665
+      },
+      "mask_pixels_gt127": 18979,
+      "contour_area": 18654.5,
+      "candidate_count": 1,
+      "stamp": {
+        "sec": 1791971163,
+        "nanosec": 282329822
+      },
+      "raw_pixel_sha256": "2ed096862803a51bdefb192c37be4f2c493422e8422ce3139fb236890d3f92f7"
+    },
+    "exp1-B": {
+      "target_matches_recomputed_existing_detector": true,
+      "mask_jpeg_matches_recomputed_existing_detector": true,
+      "target": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "mask_pixels_gt127": 0,
+      "contour_area": 0.0,
+      "candidate_count": 0,
+      "stamp": {
+        "sec": 1791971184,
+        "nanosec": 836085345
+      },
+      "raw_pixel_sha256": "2ed096862803a51bdefb192c37be4f2c493422e8422ce3139fb236890d3f92f7"
+    },
+    "exp2-A": {
+      "target_matches_recomputed_existing_detector": true,
+      "mask_jpeg_matches_recomputed_existing_detector": true,
+      "target": {
+        "x": -0.02724920595566758,
+        "y": -0.044322973902632984,
+        "z": 0.060724283854166665
+      },
+      "mask_pixels_gt127": 18979,
+      "contour_area": 18654.5,
+      "candidate_count": 1,
+      "stamp": {
+        "sec": 1791971207,
+        "nanosec": 72791700
+      },
+      "raw_pixel_sha256": "2ed096862803a51bdefb192c37be4f2c493422e8422ce3139fb236890d3f92f7"
+    },
+    "exp2-B": {
+      "target_matches_recomputed_existing_detector": true,
+      "mask_jpeg_matches_recomputed_existing_detector": true,
+      "target": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "mask_pixels_gt127": 18979,
+      "contour_area": 0.0,
+      "candidate_count": 0,
+      "stamp": {
+        "sec": 1791972438,
+        "nanosec": 75100695
+      },
+      "raw_pixel_sha256": "2ed096862803a51bdefb192c37be4f2c493422e8422ce3139fb236890d3f92f7"
+    },
+    "absent": {
+      "target_matches_recomputed_existing_detector": true,
+      "mask_jpeg_matches_recomputed_existing_detector": true,
+      "target": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "mask_pixels_gt127": 0,
+      "contour_area": 0.0,
+      "candidate_count": 0,
+      "stamp": {
+        "sec": 1791971251,
+        "nanosec": 329328648
+      },
+      "raw_pixel_sha256": "48871c378d7438fce9ac257139d3f02ef485b5a69c184f1e84e695d6ae44e27a"
+    },
+    "holdout-occluded": {
+      "target_matches_recomputed_existing_detector": true,
+      "mask_jpeg_matches_recomputed_existing_detector": true,
+      "target": {
+        "x": -0.21571886282856384,
+        "y": -0.05138502549837736,
+        "z": 0.0386181640625
+      },
+      "mask_pixels_gt127": 12166,
+      "contour_area": 11863.5,
+      "candidate_count": 1,
+      "stamp": {
+        "sec": 1791971274,
+        "nanosec": 559192538
+      },
+      "raw_pixel_sha256": "b99fc8e34d4830af99aa327b592f4b4b72fc0f83fae6ae6bde1d2215ebe3b8ff"
+    }
+  },
+  "checks": [
+    "single-variable changes",
+    "baseline restored for exp2",
+    "all AB Raw pixels identical",
+    "exp2 Mask unchanged",
+    "source unchanged",
+    "ROS target matches existing detector",
+    "live graph includes publishers and subscriber"
+  ]
+}

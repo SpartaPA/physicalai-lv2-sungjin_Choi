@@ -1,0 +1,36 @@
+{
+  "what": "Exact README replay block executed in original workspace; no motor/hardware",
+  "exit_code": 0,
+  "output_directory": "/tmp/module3-rerun-b1CjVuJz/exp1-A",
+  "checks": {
+    "execution_success": true,
+    "new_stamp": true,
+    "target_equal": true,
+    "raw_pixels_equal": true,
+    "mask_bytes_equal": true
+  },
+  "receipt": {
+    "success": true,
+    "stamp": {
+      "sec": 1791975131,
+      "nanosec": 956320160
+    },
+    "frame_id": "camera_color_optical_frame",
+    "topics": {
+      "raw": "/camera/camera/color/image_raw",
+      "mask": "/target/debug/mask/compressed",
+      "overlay": "/target/debug/overlay/compressed",
+      "target": "/target"
+    },
+    "raw_encoding": "bgr8",
+    "width": 640,
+    "height": 480,
+    "decoded_mask_pixels_gt127": 18979,
+    "mask_unique_values": 66,
+    "target": {
+      "x": -0.02724920595566758,
+      "y": -0.044322973902632984,
+      "z": 0.060724283854166665
+    }
+  }
+}

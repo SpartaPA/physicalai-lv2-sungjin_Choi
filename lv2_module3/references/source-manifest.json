@@ -1,0 +1,30 @@
+{
+  "origin": "pa18@PA18.local:/home/pa18/vision_app/v3-runtime-001-prepared/runtime/issue34-v3",
+  "files": [
+    {
+      "path": "source/issue34_guarded.py",
+      "sha256": "f802ce54a1cc974a0c7ac2b804a53f105ac7c30e31f1c23def24ead4b2326c39"
+    },
+    {
+      "path": "source/issue34_live_view.before-tuning.py",
+      "sha256": "8f67fc467930b0404b8ec3afbf255f594a7109343b6894faa626a3bf8224835d"
+    },
+    {
+      "path": "source/target_detector/detection.py",
+      "sha256": "5300ef23cb560c9c333e157a240830166abd6dfdb57c628271a7a988114ac839"
+    },
+    {
+      "path": "source/target_detector/target_detector.py",
+      "sha256": "c3a4cbc7838d1bf03652888824fcc8dadb3b1821ab5a8f229e437c1fc6fa9e41"
+    },
+    {
+      "path": "source/target_detector/object_tracker.py",
+      "sha256": "dcc86ea668bfbf99c7a62faa09e921cccc9b1de81f0fa05dae02ba0bfaf3f485"
+    },
+    {
+      "path": "source/target_detector/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "copied_without_edits": true
+}

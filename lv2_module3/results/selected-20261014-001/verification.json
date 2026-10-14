@@ -1,0 +1,548 @@
+{
+  "checked_at": "2026-10-14T19:16:55.183164+09:00",
+  "result_dir": "/home/pa12/.codex/worktrees/986a/Lv2_Monglian_Assignment/lv2_module3/results/selected-20261014-001",
+  "runs_dir": "runs",
+  "required_runs": 6,
+  "total": 95,
+  "failed": 0,
+  "ignored_run_dirs": [],
+  "checks": [
+    {
+      "id": "D1 manifest에 입력 3장이 있음",
+      "pass": true,
+      "detail": "3장"
+    },
+    {
+      "id": "D1 present-frame-045.png 복사본 SHA256이 기록된 해시와 일치",
+      "pass": true,
+      "detail": "ebaf45f595a7d3ce"
+    },
+    {
+      "id": "D1 present-frame-045.png 실제 원본 파일과 바이트 동일",
+      "pass": true,
+      "detail": "/home/pa12/Desktop/vision_project/Lv2_Monglian_Assignment/lv2_module5/results/logs/perception/display-transport-001/trial-001/frame-045.png"
+    },
+    {
+      "id": "D1 absent-frame-170.png 복사본 SHA256이 기록된 해시와 일치",
+      "pass": true,
+      "detail": "b7ffdcbab76f5af0"
+    },
+    {
+      "id": "D1 absent-frame-170.png 실제 원본 파일과 바이트 동일",
+      "pass": true,
+      "detail": "/home/pa12/Desktop/vision_project/Lv2_Monglian_Assignment/lv2_module5/results/logs/perception/display-transport-001/trial-001/frame-170.png"
+    },
+    {
+      "id": "D1 occluded-frame-130.png 복사본 SHA256이 기록된 해시와 일치",
+      "pass": true,
+      "detail": "54dff8068f53ee6e"
+    },
+    {
+      "id": "D1 occluded-frame-130.png 실제 원본 파일과 바이트 동일",
+      "pass": true,
+      "detail": "/home/pa12/Desktop/vision_project/Lv2_Monglian_Assignment/lv2_module5/results/logs/perception/display-transport-001/trial-001/frame-130.png"
+    },
+    {
+      "id": "D2 exp1-A 종료코드 0·success true",
+      "pass": true,
+      "detail": "return-codes=0"
+    },
+    {
+      "id": "D3 exp1-A receipt·검출 CSV를 읽을 수 있음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D3 exp1-A 4토픽 같은 stamp·frame_id, CSV 같은 stamp 행과 /target 일치",
+      "pass": true,
+      "detail": "stamp=1791971163.282329822 csv_row_seq=2"
+    },
+    {
+      "id": "D3b exp1-A 검출 CSV 행 수 = 발행한 프레임 수(20): 다른 실행의 프레임이 섞이지 않음",
+      "pass": true,
+      "detail": "rows=20"
+    },
+    {
+      "id": "D4 exp1-A 수신 raw 픽셀 = 입력 사진",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8d exp1-A 수신 mask 디코딩 픽셀 수가 receipt와 일치",
+      "pass": true,
+      "detail": "gt127=18979"
+    },
+    {
+      "id": "D5 exp1-A runtime.yaml·detector.log 적용값",
+      "pass": true,
+      "detail": "hsv_lower=[100, 120, 40] min_area=100.0"
+    },
+    {
+      "id": "D8a exp1-A rviz.png 파일이 있고 디코딩됨",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8b exp1-A rviz.png 크기 ≥ 1200x800",
+      "pass": true,
+      "detail": "1400x1000"
+    },
+    {
+      "id": "D8c exp1-A rviz.png 내용이 비어 있지 않음(표준편차>10, 어두운 픽셀≥20000)",
+      "pass": true,
+      "detail": "std=90.1 dark=48171"
+    },
+    {
+      "id": "D8a exp1-A mask-viewer.png 파일이 있고 디코딩됨",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8b exp1-A mask-viewer.png 크기 ≥ 1000x700",
+      "pass": true,
+      "detail": "1100x800"
+    },
+    {
+      "id": "D8c exp1-A mask-viewer.png 내용이 비어 있지 않음(표준편차>10, 어두운 픽셀≥300000)",
+      "pass": true,
+      "detail": "std=115.8 dark=551660"
+    },
+    {
+      "id": "D2 exp1-B 종료코드 0·success true",
+      "pass": true,
+      "detail": "return-codes=0"
+    },
+    {
+      "id": "D3 exp1-B receipt·검출 CSV를 읽을 수 있음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D3 exp1-B 4토픽 같은 stamp·frame_id, CSV 같은 stamp 행과 /target 일치",
+      "pass": true,
+      "detail": "stamp=1791971184.836085345 csv_row_seq=1"
+    },
+    {
+      "id": "D3b exp1-B 검출 CSV 행 수 = 발행한 프레임 수(20): 다른 실행의 프레임이 섞이지 않음",
+      "pass": true,
+      "detail": "rows=20"
+    },
+    {
+      "id": "D4 exp1-B 수신 raw 픽셀 = 입력 사진",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8d exp1-B 수신 mask 디코딩 픽셀 수가 receipt와 일치",
+      "pass": true,
+      "detail": "gt127=0"
+    },
+    {
+      "id": "D5 exp1-B runtime.yaml·detector.log 적용값",
+      "pass": true,
+      "detail": "hsv_lower=[100, 120, 180] min_area=100.0"
+    },
+    {
+      "id": "D8a exp1-B rviz.png 파일이 있고 디코딩됨",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8b exp1-B rviz.png 크기 ≥ 1200x800",
+      "pass": true,
+      "detail": "1400x1000"
+    },
+    {
+      "id": "D8c exp1-B rviz.png 내용이 비어 있지 않음(표준편차>10, 어두운 픽셀≥20000)",
+      "pass": true,
+      "detail": "std=89.9 dark=50615"
+    },
+    {
+      "id": "D8a exp1-B mask-viewer.png 파일이 있고 디코딩됨",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8b exp1-B mask-viewer.png 크기 ≥ 1000x700",
+      "pass": true,
+      "detail": "1100x800"
+    },
+    {
+      "id": "D8c exp1-B mask-viewer.png 내용이 비어 있지 않음(표준편차>10, 어두운 픽셀≥300000)",
+      "pass": true,
+      "detail": "std=111.9 dark=588157"
+    },
+    {
+      "id": "D2 exp2-A 종료코드 0·success true",
+      "pass": true,
+      "detail": "return-codes=0"
+    },
+    {
+      "id": "D3 exp2-A receipt·검출 CSV를 읽을 수 있음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D3 exp2-A 4토픽 같은 stamp·frame_id, CSV 같은 stamp 행과 /target 일치",
+      "pass": true,
+      "detail": "stamp=1791971207.072791700 csv_row_seq=1"
+    },
+    {
+      "id": "D3b exp2-A 검출 CSV 행 수 = 발행한 프레임 수(20): 다른 실행의 프레임이 섞이지 않음",
+      "pass": true,
+      "detail": "rows=20"
+    },
+    {
+      "id": "D4 exp2-A 수신 raw 픽셀 = 입력 사진",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8d exp2-A 수신 mask 디코딩 픽셀 수가 receipt와 일치",
+      "pass": true,
+      "detail": "gt127=18979"
+    },
+    {
+      "id": "D5 exp2-A runtime.yaml·detector.log 적용값",
+      "pass": true,
+      "detail": "hsv_lower=[100, 120, 40] min_area=100.0"
+    },
+    {
+      "id": "D8a exp2-A rviz.png 파일이 있고 디코딩됨",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8b exp2-A rviz.png 크기 ≥ 1200x800",
+      "pass": true,
+      "detail": "1400x1000"
+    },
+    {
+      "id": "D8c exp2-A rviz.png 내용이 비어 있지 않음(표준편차>10, 어두운 픽셀≥20000)",
+      "pass": true,
+      "detail": "std=90.1 dark=48171"
+    },
+    {
+      "id": "D8a exp2-A mask-viewer.png 파일이 있고 디코딩됨",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8b exp2-A mask-viewer.png 크기 ≥ 1000x700",
+      "pass": true,
+      "detail": "1100x800"
+    },
+    {
+      "id": "D8c exp2-A mask-viewer.png 내용이 비어 있지 않음(표준편차>10, 어두운 픽셀≥300000)",
+      "pass": true,
+      "detail": "std=115.8 dark=551660"
+    },
+    {
+      "id": "D2 exp2-B 종료코드 0·success true",
+      "pass": true,
+      "detail": "return-codes=0"
+    },
+    {
+      "id": "D3 exp2-B receipt·검출 CSV를 읽을 수 있음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D3 exp2-B 4토픽 같은 stamp·frame_id, CSV 같은 stamp 행과 /target 일치",
+      "pass": true,
+      "detail": "stamp=1791972438.075100695 csv_row_seq=1"
+    },
+    {
+      "id": "D3b exp2-B 검출 CSV 행 수 = 발행한 프레임 수(20): 다른 실행의 프레임이 섞이지 않음",
+      "pass": true,
+      "detail": "rows=20"
+    },
+    {
+      "id": "D4 exp2-B 수신 raw 픽셀 = 입력 사진",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8d exp2-B 수신 mask 디코딩 픽셀 수가 receipt와 일치",
+      "pass": true,
+      "detail": "gt127=18979"
+    },
+    {
+      "id": "D5 exp2-B runtime.yaml·detector.log 적용값",
+      "pass": true,
+      "detail": "hsv_lower=[100, 120, 40] min_area=50000.0"
+    },
+    {
+      "id": "D8a exp2-B rviz.png 파일이 있고 디코딩됨",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8b exp2-B rviz.png 크기 ≥ 1200x800",
+      "pass": true,
+      "detail": "1400x1000"
+    },
+    {
+      "id": "D8c exp2-B rviz.png 내용이 비어 있지 않음(표준편차>10, 어두운 픽셀≥20000)",
+      "pass": true,
+      "detail": "std=90.1 dark=48292"
+    },
+    {
+      "id": "D8a exp2-B mask-viewer.png 파일이 있고 디코딩됨",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8b exp2-B mask-viewer.png 크기 ≥ 1000x700",
+      "pass": true,
+      "detail": "1100x800"
+    },
+    {
+      "id": "D8c exp2-B mask-viewer.png 내용이 비어 있지 않음(표준편차>10, 어두운 픽셀≥300000)",
+      "pass": true,
+      "detail": "std=115.8 dark=551660"
+    },
+    {
+      "id": "D2 absent 종료코드 0·success true",
+      "pass": true,
+      "detail": "return-codes=0"
+    },
+    {
+      "id": "D3 absent receipt·검출 CSV를 읽을 수 있음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D3 absent 4토픽 같은 stamp·frame_id, CSV 같은 stamp 행과 /target 일치",
+      "pass": true,
+      "detail": "stamp=1791971251.329328648 csv_row_seq=1"
+    },
+    {
+      "id": "D3b absent 검출 CSV 행 수 = 발행한 프레임 수(20): 다른 실행의 프레임이 섞이지 않음",
+      "pass": true,
+      "detail": "rows=20"
+    },
+    {
+      "id": "D4 absent 수신 raw 픽셀 = 입력 사진",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8d absent 수신 mask 디코딩 픽셀 수가 receipt와 일치",
+      "pass": true,
+      "detail": "gt127=0"
+    },
+    {
+      "id": "D5 absent runtime.yaml·detector.log 적용값",
+      "pass": true,
+      "detail": "hsv_lower=[100, 120, 40] min_area=100.0"
+    },
+    {
+      "id": "D8a absent rviz.png 파일이 있고 디코딩됨",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8b absent rviz.png 크기 ≥ 1200x800",
+      "pass": true,
+      "detail": "1400x1000"
+    },
+    {
+      "id": "D8c absent rviz.png 내용이 비어 있지 않음(표준편차>10, 어두운 픽셀≥20000)",
+      "pass": true,
+      "detail": "std=89.9 dark=54583"
+    },
+    {
+      "id": "D8a absent mask-viewer.png 파일이 있고 디코딩됨",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8b absent mask-viewer.png 크기 ≥ 1000x700",
+      "pass": true,
+      "detail": "1100x800"
+    },
+    {
+      "id": "D8c absent mask-viewer.png 내용이 비어 있지 않음(표준편차>10, 어두운 픽셀≥300000)",
+      "pass": true,
+      "detail": "std=111.9 dark=588157"
+    },
+    {
+      "id": "D2 holdout-occluded 종료코드 0·success true",
+      "pass": true,
+      "detail": "return-codes=0"
+    },
+    {
+      "id": "D3 holdout-occluded receipt·검출 CSV를 읽을 수 있음",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D3 holdout-occluded 4토픽 같은 stamp·frame_id, CSV 같은 stamp 행과 /target 일치",
+      "pass": true,
+      "detail": "stamp=1791971274.559192538 csv_row_seq=2"
+    },
+    {
+      "id": "D3b holdout-occluded 검출 CSV 행 수 = 발행한 프레임 수(20): 다른 실행의 프레임이 섞이지 않음",
+      "pass": true,
+      "detail": "rows=20"
+    },
+    {
+      "id": "D4 holdout-occluded 수신 raw 픽셀 = 입력 사진",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8d holdout-occluded 수신 mask 디코딩 픽셀 수가 receipt와 일치",
+      "pass": true,
+      "detail": "gt127=12166"
+    },
+    {
+      "id": "D5 holdout-occluded runtime.yaml·detector.log 적용값",
+      "pass": true,
+      "detail": "hsv_lower=[100, 120, 40] min_area=100.0"
+    },
+    {
+      "id": "D8a holdout-occluded rviz.png 파일이 있고 디코딩됨",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8b holdout-occluded rviz.png 크기 ≥ 1200x800",
+      "pass": true,
+      "detail": "1400x1000"
+    },
+    {
+      "id": "D8c holdout-occluded rviz.png 내용이 비어 있지 않음(표준편차>10, 어두운 픽셀≥20000)",
+      "pass": true,
+      "detail": "std=90.1 dark=49475"
+    },
+    {
+      "id": "D8a holdout-occluded mask-viewer.png 파일이 있고 디코딩됨",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D8b holdout-occluded mask-viewer.png 크기 ≥ 1000x700",
+      "pass": true,
+      "detail": "1100x800"
+    },
+    {
+      "id": "D8c holdout-occluded mask-viewer.png 내용이 비어 있지 않음(표준편차>10, 어두운 픽셀≥300000)",
+      "pass": true,
+      "detail": "std=114.6 dark=564539"
+    },
+    {
+      "id": "D6 exp1-A·exp2-A 수신 raw·Mask 디코딩 픽셀·/target 값 동일",
+      "pass": true,
+      "detail": "{\"x\": -0.02724920595566758, \"y\": -0.044322973902632984, \"z\": 0.060724283854166665}"
+    },
+    {
+      "id": "D7 exp2-A·exp2-B 수신 Mask 디코딩 픽셀 동일",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D7 실험 1·2의 네 묶음 raw 픽셀이 모두 같은 입력",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "D9 실험 1: 실제 runtime 전체에서 A·B 차이가 hsv_lower의 V(40→180) 하나뿐",
+      "pass": true,
+      "detail": "다른 키=['hsv_lower'] hsv_lower [100, 120, 40]→[100, 120, 180]"
+    },
+    {
+      "id": "D9 실험 2: 실제 runtime 전체에서 A·B 차이가 min_area_px(100→50000) 하나뿐",
+      "pass": true,
+      "detail": "다른 키=['min_area_px']"
+    },
+    {
+      "id": "D9 실험 2 A는 실험 1 A와 실제 설정 동일(HSV 되돌림)",
+      "pass": true,
+      "detail": "다른 키=[]"
+    },
+    {
+      "id": "D9 absent는 exp1-A와 실제 설정 동일",
+      "pass": true,
+      "detail": "다른 키=[]"
+    },
+    {
+      "id": "D9 holdout-occluded는 exp1-A와 실제 설정 동일",
+      "pass": true,
+      "detail": "다른 키=[]"
+    },
+    {
+      "id": "D10 실행 전 계획·설정 파일 mtime이 첫 실행 시작보다 앞",
+      "pass": true,
+      "detail": "plan=1791971136 first_run=1791971154"
+    },
+    {
+      "id": "D10 계획 파일 SHA256이 기록값과 같음(실행 후 수정 없음)",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "summary": {
+    "exp1-A": {
+      "target": {
+        "x": -0.02724920595566758,
+        "y": -0.044322973902632984,
+        "z": 0.060724283854166665
+      },
+      "gt127": 18979,
+      "n_candidates": "1",
+      "csv_rows": 20
+    },
+    "exp1-B": {
+      "target": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "gt127": 0,
+      "n_candidates": "0",
+      "csv_rows": 20
+    },
+    "exp2-A": {
+      "target": {
+        "x": -0.02724920595566758,
+        "y": -0.044322973902632984,
+        "z": 0.060724283854166665
+      },
+      "gt127": 18979,
+      "n_candidates": "1",
+      "csv_rows": 20
+    },
+    "exp2-B": {
+      "target": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "gt127": 18979,
+      "n_candidates": "0",
+      "csv_rows": 20
+    },
+    "absent": {
+      "target": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "gt127": 0,
+      "n_candidates": "0",
+      "csv_rows": 20
+    },
+    "holdout-occluded": {
+      "target": {
+        "x": -0.21571886282856384,
+        "y": -0.05138502549837736,
+        "z": 0.0386181640625
+      },
+      "gt127": 12166,
+      "n_candidates": "1",
+      "csv_rows": 20
+    }
+  }
+}

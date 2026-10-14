@@ -1,0 +1,38 @@
+target_detector:
+  ros__parameters:
+    detect_scale: 1.0
+    hsv_lower:
+    - 100
+    - 120
+    - 180
+    hsv_upper:
+    - 130
+    - 255
+    - 255
+    lock_gate_px: 80.0
+    lock_timeout_s: 0.5
+    log_dir: /home/pa12/.codex/worktrees/986a/Lv2_Monglian_Assignment/lv2_module3/results/selected-20261014-001/runs/exp1-B/logs
+    min_area_px: 100.0
+    morph_kernel: 5
+    obj_area_max_cm2: 30.0
+    obj_area_min_cm2: 2.0
+    relock_after_s: 0.5
+    run_id: topic_demo
+    save_dir: /home/pa12/.codex/worktrees/986a/Lv2_Monglian_Assignment/lv2_module3/results/selected-20261014-001/runs/exp1-B/images
+    save_every_n: 1
+    selection: priority
+    show_window: false
+    similar_area_ratio: 0.2
+    similar_depth_m: 0.03
+    similar_depth_ratio: 0.05
+    size_check: true
+    track_assumed_range_m: 0.6
+    track_fast_rotation_deg_s: 0.0
+    track_gate_m: 0.04
+    track_predict_horizon_s: 0.5
+    track_reid_gate_m: 0.06
+    track_size_ratio_max: 1.6
+    track_sync_error_s: 0.02
+    track_velocity_window_s: 0.1
+    use_depth: false
+    use_object_tracker: false

@@ -1,0 +1,17 @@
+{
+  "python": "3.12.3",
+  "opencv": "4.6.0",
+  "numpy": "1.26.4",
+  "pyyaml": "6.0.1",
+  "ros_distro": "lyrical",
+  "os": "Ubuntu 24.04",
+  "ros_domain_id": 187,
+  "rmw": "rmw_cyclonedds_cpp",
+  "packages": {
+    "ros-lyrical-rclpy": "10.0.10-1noble.20260818.110638",
+    "ros-lyrical-rviz2": "15.2.5-1noble.20260818.190432",
+    "ros-lyrical-rqt-image-view": "2.0.5-3noble.20260818.133427",
+    "ros-lyrical-rmw-cyclonedds-cpp": "4.1.4-3noble.20260818.092458"
+  },
+  "note": "build_selected_demo.py가 빌드 시점의 환경에서 읽은 값"
+}

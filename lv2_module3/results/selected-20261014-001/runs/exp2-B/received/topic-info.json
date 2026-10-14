@@ -1,0 +1,108 @@
+{
+  "raw": {
+    "topic": "/camera/camera/color/image_raw",
+    "publishers": [
+      {
+        "node": "/_ros2cli_246577",
+        "type": "sensor_msgs/msg/Image",
+        "reliability": "1",
+        "durability": "2"
+      }
+    ],
+    "subscribers": [
+      {
+        "node": "/target_detector",
+        "type": "sensor_msgs/msg/Image",
+        "reliability": "2",
+        "durability": "2"
+      },
+      {
+        "node": "/rviz",
+        "type": "sensor_msgs/msg/Image",
+        "reliability": "2",
+        "durability": "2"
+      },
+      {
+        "node": "/module3_evidence_receiver",
+        "type": "sensor_msgs/msg/Image",
+        "reliability": "2",
+        "durability": "2"
+      }
+    ]
+  },
+  "mask": {
+    "topic": "/target/debug/mask/compressed",
+    "publishers": [
+      {
+        "node": "/target_detector",
+        "type": "sensor_msgs/msg/CompressedImage",
+        "reliability": "1",
+        "durability": "2"
+      }
+    ],
+    "subscribers": [
+      {
+        "node": "/rqt_gui_cpp_node_246470",
+        "type": "sensor_msgs/msg/CompressedImage",
+        "reliability": "2",
+        "durability": "2"
+      },
+      {
+        "node": "/rviz",
+        "type": "sensor_msgs/msg/CompressedImage",
+        "reliability": "2",
+        "durability": "2"
+      },
+      {
+        "node": "/module3_evidence_receiver",
+        "type": "sensor_msgs/msg/CompressedImage",
+        "reliability": "2",
+        "durability": "2"
+      }
+    ]
+  },
+  "overlay": {
+    "topic": "/target/debug/overlay/compressed",
+    "publishers": [
+      {
+        "node": "/target_detector",
+        "type": "sensor_msgs/msg/CompressedImage",
+        "reliability": "1",
+        "durability": "2"
+      }
+    ],
+    "subscribers": [
+      {
+        "node": "/rviz",
+        "type": "sensor_msgs/msg/CompressedImage",
+        "reliability": "2",
+        "durability": "2"
+      },
+      {
+        "node": "/module3_evidence_receiver",
+        "type": "sensor_msgs/msg/CompressedImage",
+        "reliability": "2",
+        "durability": "2"
+      }
+    ]
+  },
+  "target": {
+    "topic": "/target",
+    "publishers": [
+      {
+        "node": "/target_detector",
+        "type": "geometry_msgs/msg/PointStamped",
+        "reliability": "2",
+        "durability": "2"
+      }
+    ],
+    "subscribers": [
+      {
+        "node": "/module3_evidence_receiver",
+        "type": "geometry_msgs/msg/PointStamped",
+        "reliability": "2",
+        "durability": "2"
+      }
+    ]
+  }
+}

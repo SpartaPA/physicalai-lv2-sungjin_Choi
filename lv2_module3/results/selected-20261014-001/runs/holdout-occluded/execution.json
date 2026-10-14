@@ -1,0 +1,54 @@
+{
+  "input": "/home/pa12/.codex/worktrees/986a/Lv2_Monglian_Assignment/lv2_module3/results/selected-20261014-001/inputs/occluded-frame-130.png",
+  "kind": "saved photo through actual ROS topics",
+  "domain": 187,
+  "success": true,
+  "viewer_display": ":0",
+  "viewer_mode": "private virtual display / software rendering",
+  "desktop_window_manipulation": false,
+  "live_view_requested": false,
+  "commands": [
+    {
+      "label": "virtual-display",
+      "command": "/home/pa12/.cache/module3-display/usr/bin/Xvfb -displayfd 4 -screen 0 1600x1100x24 -screen 1 1200x900x24 -nolisten tcp -auth /tmp/module3-viewers-f0bjgjmk/Xauthority -noreset",
+      "pid": 221649,
+      "stdin_file": null,
+      "returncode": 0
+    },
+    {
+      "label": "detector",
+      "command": "python3 /home/pa12/.codex/worktrees/986a/Lv2_Monglian_Assignment/lv2_module3/demo/20261012-002/source/issue34_live_view.before-tuning.py --ros-args --params-file /home/pa12/.codex/worktrees/986a/Lv2_Monglian_Assignment/lv2_module3/results/selected-20261014-001/runs/holdout-occluded/runtime.yaml",
+      "pid": 221653,
+      "stdin_file": null,
+      "returncode": 0
+    },
+    {
+      "label": "rviz",
+      "command": "rviz2 -d /home/pa12/.codex/worktrees/986a/Lv2_Monglian_Assignment/lv2_module3/results/selected-20261014-001/runs/holdout-occluded/holdout-occluded.rviz",
+      "pid": 221654,
+      "stdin_file": null,
+      "returncode": 0
+    },
+    {
+      "label": "mask-viewer",
+      "command": "ros2 run rqt_image_view rqt_image_view /target/debug/mask/compressed",
+      "pid": 221655,
+      "stdin_file": null,
+      "returncode": 0
+    },
+    {
+      "label": "capture",
+      "command": "python3 /home/pa12/.codex/worktrees/986a/Lv2_Monglian_Assignment/docs/module3/tools/capture_topic_bundle.py --output /home/pa12/.codex/worktrees/986a/Lv2_Monglian_Assignment/lv2_module3/results/selected-20261014-001/runs/holdout-occluded/received --timeout 20",
+      "pid": 222046,
+      "stdin_file": null,
+      "returncode": 0
+    },
+    {
+      "label": "publisher",
+      "command": "python3 /home/pa12/.codex/worktrees/986a/Lv2_Monglian_Assignment/docs/module3/tools/ros_topic_pub.py topic pub /camera/camera/color/image_raw sensor_msgs/msg/Image --stdin -r 2 --times 20 -w 3 --max-wait-time-secs 15 --keep-alive 1 --print 0",
+      "pid": 222047,
+      "stdin_file": "/home/pa12/.codex/worktrees/986a/Lv2_Monglian_Assignment/lv2_module3/results/selected-20261014-001/runs/holdout-occluded/input.yaml",
+      "returncode": 0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+exp1-A	exp1-A	present-frame-045.png	0
+exp1-B	exp1-B	present-frame-045.png	0
+exp2-A	exp2-A	present-frame-045.png	0
+exp2-B	exp2-B	present-frame-045.png	0
+absent	exp1-A	absent-frame-170.png	0
+holdout-occluded	exp1-A	occluded-frame-130.png	0
